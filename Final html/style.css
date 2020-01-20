@@ -1,0 +1,329 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	width: 1920px;
+	height: 6970px;
+	background: #6f6f6f;
+	font-family:  'Raleway', sans-serif;
+	margin: 0px auto;	
+}
+.top {
+	width: 1920px;
+	height: 1025px;
+	background: url("Img/images/Waxom-Hemepage_01.png");
+}
+
+.topmenu{
+	width: 660px;
+	height: 15px;
+	float: right;
+	margin-top: 60px;
+}
+.topmenu ul{
+	list-style: none;
+}
+.topmenu ul li{
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.topmenu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFFFFF;
+	display: block;
+}
+.topmenu a:hover{
+	color:#72F1DF ;
+	transition: 1s;
+}
+/*topmenu*/
+.toptext {
+	width: 595px;
+	height:262px;
+	float: left;
+	margin-top: 381px;
+	margin-left: 666px;
+	text-align: center;
+	color: aliceblue;
+}
+.toptext h2{
+	margin-bottom: 25px;
+}
+.toptext h1{
+	margin-bottom: 30px;
+	font-size: 52px;
+}
+.top button {
+	width: 170px;
+	height: 55px;
+	scolor: #ffffff;
+	background: #c69c6d;
+	border-radius: 10px;
+	border: 2px solid  #c69c6d;
+	margin-top: 30px;
+}
+.top button:hover{
+	transition: 0.5s;
+	color:#1525CF;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+}
+.midpart {
+	width: 1920px;
+	height: 370px;
+	background: #FFFFFF;
+	padding-top: 20px;
+}
+.part {
+	width: 1170px;
+	height: 220px;
+		margin: 0px auto;
+}
+.part1 {
+	width: 270px;
+	height: 220px;
+	float: left;
+	margin-left: 19px;
+	font-size: 14px;
+	text-align: center
+}
+.part1  p{
+	margin-top: 15px;
+	font-size: 14px;
+	color: #8c8c8c;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 30px;
+}
+.hr{
+	width: 40px;
+	border: 2px solid #f1eee9;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+.part1 h1{
+	font-size: 22px;
+}
+.part .part1:hover{
+	color: #c7b299;
+	transition: 0.5s;
+}
+.part .part1:hover .hr{
+	border-color: #c7b299;
+	transition: 0.5s;
+}
+.img3{
+	width: 1920px;
+	height: 700px;
+	background: #fbfaf8;
+}
+.text{
+	width: 1920px;
+	height: 215px;
+	float: left;
+	background: #fbfaf8;
+}
+.hinh13{
+	width: 1920px;
+	height: 485px;
+	position: relative;
+	float: right;
+	}
+.hinh1{
+	width: 775px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+	top: 85px;
+	left: 345px;
+	
+}
+.hinh2{
+	width: 775px;
+	height: 400px;
+	position: absolute;
+	z-index: 2;
+	top: 85px;
+	left: 810px;
+	
+}
+.hinh3{
+	width: 775px;
+	height: 400px;
+	position: absolute;
+	z-index: 3;
+	top: 3px;
+	left: 575px;
+}
+.midpart .part .part1 a{
+	text-decoration: none;
+	color: #000000;
+}
+.part .part1:hover h1{
+	color:#c7b299;
+}
+.text1 {
+	width: 760px;
+	height: 102px;
+	background: #fbfaf8;
+	margin-top: 82px;
+	margin-left: 580px;
+	text-align: center;
+}
+.text1 p{
+	margin-top: 10px;
+}
+.browse {
+	width: 1920px;
+	height: 155px;
+	background: url("Img/images/Waxom-Hemepage-1_02.png");
+	
+}
+.rightbrowse {
+	width: 1255px;
+	height: 155px;
+	text-align: center;
+	
+}
+.rightbrowse h1{
+	padding-top: 20px;
+	color: #ffffff;
+	
+}
+.rightbrowse h1 a{
+	text-decoration: none;
+	color:#c7b299;
+}
+.rightbrowse p{
+	color: #ffffff;
+}
+.browse button{
+	margin-left: 1000px;
+	width: 170px;
+	height: 55px;
+	color: #ffffff;
+	background: #c69c6d;
+	border-radius: 10px;
+	border: 2px solid  #c69c6d;
+	margin-top: -30px;
+	
+}
+.browse button:hover{
+	transition: 0.5s;
+	color:#1525CF;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+}
+.img6 {
+	width: 1920px;
+	height: 1080px;
+	background: #ffffff;
+	padding-top: 85px;
+}
+.img6 .textproject {
+	width: 765px;
+	height: 100px;
+	background: #ffffff;
+	margin-left: 580px;
+	text-align: center;
+}
+.textproject p{
+	margin-top: 10px;
+	color: #8c8c8c;
+}
+.textproject h1{
+	color: #555555;
+}
+.button5 {
+	width: 610px;
+	height: 35px;
+	background: #ffffff;
+	margin-left: 655px;
+	margin-top: 40px;
+	
+}
+.button5 button{
+	width: 100px;
+	height: 25px;
+	border-radius: 5px;
+	border: 2px solid  #c69c6d;
+	margin-left: 10px;
+	
+	
+}
+.button5 button:hover{
+	transition: 0.5s;
+	color:#ffffff;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+	background: #c69c6d;
+}
+.sixhinh {
+	width: 1175px;
+	height: 710px;
+	background: #ffffff;
+	margin-left: 375px;
+	margin-top: 40px;
+}
+.hinhtrong6 {
+	width: 370px;
+	height: 340px;
+	background: #fbfaf8;
+	float: left;
+	margin: 10px;
+	
+}
+.hinhtrong6 h1 {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform:uppercase;
+	color: #c7b299;
+	
+}
+.hinhtrong6 p{
+	text-align: center;
+	text-decoration: none;
+	color: #dddcdc;
+}
+.sixhinh .hinhtrong6:hover{
+	background: #362f2d;
+	border-radius: 5px;
+	transition: 0.5s;
+	
+}
+.img6 .loadmore button{
+	width: 100px;
+	height: 25px;
+	border-radius: 5px;
+	border: 2px solid  #c69c6d;
+	margin-left: 872px;
+	margin-top: 30px;
+	
+	
+}
+.img6 .loadmore button:hover{
+	transition: 0.5s;
+	color:#ffffff;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+	background: #c69c6d;
+}
+.loadmore {
+	width: 1920px;
+	height: 167px;
+	background: #ffffff;
+	
+}
+.BAIEMKHOQUATHAYOI {
+	width: 1920PX;
+	height: 3565PX;
+	background: url("Img/images/images/images/images/Waxom-Hemepage-1_02.png");
+}
+
